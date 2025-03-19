@@ -1,0 +1,21 @@
+.wrapper{
+    background-color: #202020;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+         
+    .mainpage{
+        flex: 1;
+    }
+    
+    .navbar{
+        width: auto;
+        display: flex;
+        align-items: center;
+        position: sticky;
+        bottom: 0;
+    }
+}
+
+

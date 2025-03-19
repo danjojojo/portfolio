@@ -1,0 +1,77 @@
+[
+    {
+        "title": "GearUp",
+        "description": "A web management system for bike shop's inventory and sales, and a custom bike builder for customers.",
+        "date": "2024-2025",
+        "link": "https://github.com/danjojojo/gear-up-project",
+        "tools": [
+            "React",
+            "Node.js",
+            "Express",
+            "PostgreSQL",
+            "Konva.js"
+        ],
+        "images": [
+            "dashboard.png",
+            "pos.png",
+            "gearuplanding.png",
+            "builder.png"
+        ]
+    },
+    {
+        "title": "SCCD Wireless Shot Timer",
+        "description": "A wireless shot timer device used by 100 airsoft practical shooters in the Philippines to track match times efficiently.",
+        "date": "2023 - Present",
+        "link": "https://www.facebook.com/john.molina.1848",
+        "tools": [
+            "C",
+            "ESP32",
+            "Adafruit GFX",
+            "DMD Library",
+            "Deep Sleep Mode"
+        ],
+        "images": [
+            "sccd1.jpg",
+            "sccd2.jpg",
+            "sccd3.jpg"
+        ]
+    },
+    {
+        "title": "KayaMo",
+        "description": "A web platform connecting service seekers and handymen, improving accessibility to local services.",
+        "date": "2024",
+        "link": "https://github.com/danjojojo/kayamo_app",
+        "tools": [
+            "Laravel",
+            "PHP",
+            "Blade",
+            "Bootstrap",
+            "Livewire"
+        ],
+        "images": [
+            "kaya.png",
+            "request.png",
+            "quotes.png"
+        ]
+    },
+    {
+        "title": "PUP Iskommunity",
+        "description": "A web management system for PUP students to search and join student organizations.",
+        "date": "2023 - 2024",
+        "link": "https://github.com/danjojojo/iskommunity",
+        "tools": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "MySQL",
+            "jQuery"
+        ],
+        "images": [
+            "isko1.png",
+            "isko2.png",
+            "isko3.png",
+            "isko4.png"
+        ]
+    }
+]

@@ -1,0 +1,38 @@
+$border-radius: 20px;
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    
+    .upper{
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 20px 50px 20px 50px;
+        border-radius: $border-radius;
+        /* From https://css.glass */
+        background: rgba(161, 161, 161, 0.226);
+        border-radius: 25px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.452);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        // border: 2px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .lower{
+        p{
+            color: transparent;
+        }
+    }
+
+    .navbar-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+        .name{
+            font-size: 3em;
+            font-weight: 700;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+$border-radius: 20px;
+
+.mainpage{
+    margin-top: 30px;
+
+    .sections{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+
+        .section, .about{
+            width: 70%;
+            padding: 20px;
+            border-radius: $border-radius;
+            border: 1px solid transparent;
+
+            .description{
+                margin: 10px 0;
+            }
+
+            p{
+                font-size: 1.5rem;
+                letter-spacing: 1px;
+                text-align: justify;
+                font-family: 'Rubik';
+                letter-spacing: 0px;
+            }
+        }
+    }
+}

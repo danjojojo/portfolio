@@ -1,0 +1,94 @@
+.about {
+    // border: 1px solid white !important;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .me{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+        
+        .right{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+
+            .school {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+        
+                img {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 10px;
+                    object-fit: cover;
+                }
+            }
+        
+            .addresses {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                
+                p {
+                    font-size: 1.1rem !important;
+                }
+            }
+        }
+
+        img{
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            object-fit: cover;
+        } 
+    }
+    
+    .quote{
+        background-color: rgba(255, 255, 255, 0.103);
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 1.2em !important;
+
+        .title{
+            font-size: 1rem !important;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        
+        .text{
+            font-style: italic;
+        }
+
+        .author{
+            color: rgba(165, 165, 165, 0.808);
+            margin-top: 10px;
+            margin-left: auto;
+        }
+    }
+    
+    .interests-list{
+        gap: 10px !important;
+        display: flex !important;
+
+        .interest{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            border: 2px solid rgba(255, 255, 255, 0.308);
+            border-radius: 25px;
+            padding: 10px;
+            gap: 10px;
+            
+            p{
+                font-size: 1.2rem !important;
+                color: white !important;
+            }
+        }
+    }
+}
